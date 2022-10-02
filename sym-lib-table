@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "telink")(type "KiCad")(uri "${KIPRJMOD}/telink.kicad_sym")(options "")(descr ""))
+  (lib (name "sensirion")(type "KiCad")(uri "${KIPRJMOD}/sensirion.kicad_sym")(options "")(descr ""))
+  (lib (name "bosh")(type "KiCad")(uri "${KIPRJMOD}/bosh.kicad_sym")(options "")(descr ""))
+)
