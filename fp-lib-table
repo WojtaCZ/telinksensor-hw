@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "sensirion")(type "KiCad")(uri "${KIPRJMOD}/sensirion.pretty")(options "")(descr ""))
   (lib (name "bosh")(type "KiCad")(uri "${KIPRJMOD}/bosh.pretty")(options "")(descr ""))
+  (lib (name "soicbite")(type "KiCad")(uri "/mnt/data/kicad/Knihovny/soicbite.pretty")(options "")(descr "")(disabled))
 )
