@@ -7,3 +7,7 @@
 (rule "SWS clearance" 
 	(constraint clearance (min 0.05mm))
 	(condition "A.NetClass == 'SWS' && A.Type == 'Track'"))
+
+(rule "RF clearance"
+	(constraint clearance (min 0.55mm))
+	(condition "A.Type == 'Track' && A.NetClass == 'RF' && B.Type == 'Zone'"))

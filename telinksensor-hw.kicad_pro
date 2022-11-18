@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.5,
-          "width": 0.8
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -367,7 +367,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.4,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6.0
       },
@@ -383,14 +383,14 @@
         "name": "RF",
         "nets": [
           "Net-(AE1-Pad1)",
+          "Net-(C18-Pad1)",
+          "Net-(C20-Pad1)",
           "Net-(C21-Pad1)",
-          "Net-(C22-Pad2)",
-          "Net-(J1-Pad1)",
-          "Net-(L3-Pad2)"
+          "Net-(C22-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18201,
+        "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -405,7 +405,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
