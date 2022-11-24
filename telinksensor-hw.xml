@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/vosahlov/data/kicad/projekty/telinksensor-hw/telinksensor-hw.kicad_sch</source>
+    <date>Thu 24 Nov 2022 11:37:03 PM CET</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>telinksensor-hw.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE1">
+      <value>Antenna_Shield</value>
+      <footprint>RF_Antenna:Texas_SWRA117D_2.4GHz_Left</footprint>
+      <libsource lib="Device" part="Antenna_Shield" description="Antenna with extra pin for shielding"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b95cfbfd-3a54-4134-b7e5-41629bc2a09a</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>CR2032-BS-6-1</value>
+      <footprint>Battery:BatteryHolder_Keystone_1060_1x2032</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab8f09ab-c5e6-42f2-9874-59539533ab2a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4b83cdf-6674-4c59-b603-17dbdb29d7bf</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b65682c-d642-4cf8-b0e0-63575c2763b7</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3270db57-6ace-49b9-89e9-2f8143a333b5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8782080d-84c1-4663-a445-d083f339b1ec</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ef6bc8f-eba8-4fc3-9bfa-fb4479f53af5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>872ba091-ccc3-452f-87f7-4acb38b0e291</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02ab953a-f176-49a3-b3c2-a529bf384170</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb79a1d6-bbd3-4071-9a27-3e54be5fe314</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75739131-a0ae-46bc-8837-354e1ddcadda</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa410872-2601-4012-b837-415fd3f6582d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>577d66e1-b85f-415c-97cf-c7f25f48317f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6882a87-7722-467f-8c2a-3620799d2444</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a643d35e-e99e-4460-9858-8d65950a3842</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ed5b090-0ea9-4bff-9d11-6528cf268c79</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a80942fa-f7dd-4f78-b60b-602f3465ad53</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a98ebb6c-ea85-4b31-a4a6-6f67f09f1ce2</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c4ed55e-2f92-47ef-90c5-9e9cfe2802f4</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acb083d2-007a-4173-bfde-cfe40d151e27</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>18p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c05c2462-19eb-4ba8-9910-f72f7d8912f9</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0p5</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c230f2d4-22e4-4a81-a5fd-e18cfc73aff8</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>2p7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67d8bdb5-20dd-4b89-8d0d-45a42b6dd4a2</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0769db12-8452-4627-91aa-bca9778ed187</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>2p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8551163a-97a0-4c50-8f37-da5b6e0f54f0</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>509b4e7c-9cf2-4eeb-8368-76724bfb3452</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27465c0e-beb0-46ee-98a4-052018391275</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e01f40cc-a538-4528-8f9d-a5a524c29ae7</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4073e2f3-eab1-4669-af20-a134d7f2b3f9</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2425e8ff-2804-430b-8c36-c1540add4d28</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cd8b609-6908-4b8b-92b7-9a2f70e6c570</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f39da45-e4f1-4c08-a51d-b0aacb4b9f4a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31f7f80d-9545-4f04-9108-8e3bf1a85a1c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1443ed9-f8c1-4e35-af5e-983d9753fa79</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87c551bf-cacc-4be9-b11c-e55e331f674e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>966205b2-8860-4b92-9431-d444fe968313</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de0ffd97-a765-412c-9707-7193941b7f5d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cb40b67-284e-44d5-8e59-05b3772b11c1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>3W RTD</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90dfac42-480a-48e9-9b06-b0eac0ebc859</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>RTD 2W</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afa3d48f-1871-4220-9d76-0a2c8d5ec7db</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SOIC bite</value>
+      <footprint>soicbite:SOIC_clipProgSmall</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e420aad-f1d9-435b-b9b5-168c31e867ef</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>47u</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15ede8eb-31d2-4a61-968f-f1ef0e49a3b0</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>1n3</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df756972-538a-4c7b-92b6-5d6bace17107</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>3n3</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f25513f3-edf0-44b5-b182-99b8bf11891f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de7d1988-9fe5-4ba1-ac98-6c4d9c16f3dc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ae41524-a5cb-4177-95bc-fbef2ce527a0</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f1ad9f3-00f1-4a42-b985-c3cff5f4534c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8320fbee-4e0b-4c97-9d4d-91a9a22f8d92</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2M2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e701df9a-a143-4e76-a215-3b60fb1c7e56</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16caff75-dfdf-43d9-afb0-f203189c8dcc</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bae2a820-1f24-4502-b1e7-be6da9f40e3b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11be8141-689c-4412-8029-c4112765bd2b</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abf552cf-582a-459a-a445-c7b0a0bce4b5</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e502cf0b-0854-4bf8-8f4e-240830e9dba0</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbbd96e7-9e80-45e5-b1f3-701c223c8111</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d288816b-1fec-45b5-a8a8-b6767bca42b1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1a16d73-77c7-44cc-9371-1f321727158c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97e9b5c9-7bf5-4732-a769-3e429cc365ba</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c202d073-5c49-4ef0-a0d8-eaa9079eca45</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aff7db4-5e7f-4972-811b-cdbf8da84c9a</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ebc903a-9ed9-4043-8e06-076867aba062</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7bda346-c771-43c7-b51c-dc649d80e503</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39fe55e6-83f6-4ac7-8fc6-50598e504dde</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08378b0f-1979-409f-b4c5-a9c255e8608a</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b5f6cb0-29a2-4713-8da9-6620f155487a</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_EVQPE1</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12a681ab-1eeb-46a2-b8f6-7121ef6eeed7</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>RST</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b44eff5d-8c5b-46e2-b61e-04b144f24f3f</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>SCL</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0778566d-701d-4fce-90a4-a7f5cabd7076</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>SDA</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e36a67d5-84de-4660-bab4-0e5e753ae287</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>ADC3</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8d243ed-a8cd-47bf-b3ce-c2ff1c047141</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>ADC1</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30378596-9202-48d0-b8ef-3f40800b4017</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>ADC2</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91bcb934-f9dd-4873-b15c-d4782ce11ad2</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>1V2</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4790c712-0f7c-4b9e-b756-844bf10c1458</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>VDD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c92456ba-d030-4146-ac85-d0dde89007fd</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>MM8130-2600</value>
+      <footprint>murrata:MM8130-2600</footprint>
+      <libsource lib="Connector" part="CoaxialSwitch_Testpoint" description="Subminiature Coaxial Switch testpoint"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>145b9319-7394-4cc8-88ba-31bf24676752</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TLSR8258</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias</footprint>
+      <libsource lib="telink" part="TLSR8258" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>779ae099-5a72-4a48-bc2e-eea936769756</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SHT40</value>
+      <footprint>sensirion:SHT40</footprint>
+      <libsource lib="sensirion" part="SHT40" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>945275bb-941e-46e3-990c-16d2a8c4a7e5</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>BMP390</value>
+      <footprint>bosh:BMP390</footprint>
+      <libsource lib="bosh" part="BMP390" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>100e8f79-9837-4909-9855-94cdade13b2f</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>24MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="telinksensor-hw.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17b4d098-532d-48ca-a9df-46edd20da964</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="CoaxialSwitch_Testpoint">
+      <description>Subminiature Coaxial Switch testpoint</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CoaxialSwitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">CoaxialSwitch_Testpoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="G" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna_Shield">
+      <description>Antenna with extra pin for shielding</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna_Shield</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="Shield" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV99">
+      <description>BAV99 High-speed switching diodes, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV99</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bosh" part="BMP390">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMP390</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="power_in"/>
+        <pin num="2" name="SCK" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SDI" type="bidirectional"/>
+        <pin num="5" name="SDO" type="bidirectional"/>
+        <pin num="6" name="CSB" type="bidirectional"/>
+        <pin num="7" name="INT" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="sensirion" part="SHT40">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SHT40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="telink" part="TLSR8258">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">TLSR8258</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD4" type="bidirectional"/>
+        <pin num="2" name="PD7" type="bidirectional"/>
+        <pin num="3" name="PA0" type="bidirectional"/>
+        <pin num="4" name="PA1" type="bidirectional"/>
+        <pin num="5" name="PA7" type="bidirectional"/>
+        <pin num="6" name="PB1" type="bidirectional"/>
+        <pin num="7" name="DVSS" type="power_in"/>
+        <pin num="8" name="VDD1V" type="power_in"/>
+        <pin num="9" name="VDD_IO" type="power_in"/>
+        <pin num="10" name="DCDC_SW" type="power_in"/>
+        <pin num="11" name="DCDC" type="power_in"/>
+        <pin num="12" name="VDD1V2" type="power_in"/>
+        <pin num="13" name="VDD_F" type="power_in"/>
+        <pin num="14" name="PB4" type="bidirectional"/>
+        <pin num="15" name="PB5" type="bidirectional"/>
+        <pin num="16" name="PB6" type="bidirectional"/>
+        <pin num="17" name="PB7" type="bidirectional"/>
+        <pin num="18" name="VDD_3" type="power_in"/>
+        <pin num="19" name="VDDIO_AMS" type="power_in"/>
+        <pin num="20" name="PC0" type="bidirectional"/>
+        <pin num="21" name="PC1" type="bidirectional"/>
+        <pin num="22" name="PC2" type="bidirectional"/>
+        <pin num="23" name="PC3" type="bidirectional"/>
+        <pin num="24" name="PC4" type="bidirectional"/>
+        <pin num="25" name="~{RESET}" type="input"/>
+        <pin num="26" name="VANT" type="bidirectional"/>
+        <pin num="27" name="ANT" type="bidirectional"/>
+        <pin num="28" name="AVDD1V2" type="power_in"/>
+        <pin num="29" name="XC1" type="bidirectional"/>
+        <pin num="30" name="XC2" type="bidirectional"/>
+        <pin num="31" name="PD2" type="bidirectional"/>
+        <pin num="32" name="PD3" type="bidirectional"/>
+        <pin num="33" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/home/vosahlov/data/kicad/knihovny/kicad-symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/home/vosahlov/data/kicad/knihovny/kicad-symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/vosahlov/data/kicad/knihovny/kicad-symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/home/vosahlov/data/kicad/knihovny/kicad-symbols/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/home/vosahlov/data/kicad/knihovny/kicad-symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/home/vosahlov/data/kicad/knihovny/kicad-symbols/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/home/vosahlov/data/kicad/knihovny/kicad-symbols/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="bosh">
+      <uri>/home/vosahlov/data/kicad/projekty/telinksensor-hw/bosh.kicad_sym</uri>
+    </library>
+    <library logical="sensirion">
+      <uri>/home/vosahlov/data/kicad/projekty/telinksensor-hw/sensirion.kicad_sym</uri>
+    </library>
+    <library logical="telink">
+      <uri>/home/vosahlov/data/kicad/projekty/telinksensor-hw/telink.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V2">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VDD1V2" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="AVDD1V2" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ADC1">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/ADC2">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ADC3">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="D4" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/BTN">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/GND_RTD">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/I2C_SCL">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PC1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/I2C_SDA">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PC0" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="SDI" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/LED">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/PGA+">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PGA-">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/RTD_ON">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/SENSOR_PWR">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="14" name="/SWM">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/SWS">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/~{RST}">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="AE1" pin="2" pinfunction="Shield" pintype="input"/>
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP11" pin="G" pinfunction="G" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="DVSS" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="SDO" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(AE1-Pad1)">
+      <node ref="AE1" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="XC1" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="XC2" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="VDD_F" pintype="power_in"/>
+    </net>
+    <net code="22" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VDD1V" pintype="power_in"/>
+    </net>
+    <net code="23" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="TP11" pin="A" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="VANT" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP11" pin="C" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="ANT" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(C22-Pad2)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="DCDC" pintype="power_in"/>
+    </net>
+    <net code="33" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="DCDC_SW" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="VDD">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="VDD_3" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="VDDIO_AMS" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="VDD_IO" pintype="power_in"/>
+    </net>
+    <net code="38" name="unconnected-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J5-Pad3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J5-Pad7)">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="CSB" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="INT" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
